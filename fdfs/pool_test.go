@@ -87,11 +87,4 @@ func TestWriteHeader(t *testing.T) {
 	fmt.Println("lengt123 :", len(buf))
 	fmt.Println("cmd :", cmd)
 	fmt.Println("status :", status)
-
-	for i := 0; i < 100; i++ {
-		/*get :=*/ p.Get(context.Background())
-		//get.Close()
-	}
-
-	time.Sleep(time.Second*5)
 }
